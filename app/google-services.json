@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986364459938",
+    "project_id": "event-locator-51113",
+    "storage_bucket": "event-locator-51113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986364459938:android:bce4f8941e60fcc4a550fb",
+        "android_client_info": {
+          "package_name": "com.example.eventlocator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrywJVPzmVR1AXAqw6h7SdIhmr_SSb1pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

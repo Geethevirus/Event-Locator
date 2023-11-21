@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Event locator</string>
+    <string-array name="event_cat">
+        <item>Music</item>
+        <item>Clothing</item>
+        <item>Food</item>
+        <item>Club</item>
+        <item>Health</item>
+        <item>Festival</item>
+        <item>Business</item>
+    </string-array>
+
+    <string-array name="eventname">
+        <item>THE WEEKEND</item>
+        <item>PROPAGANDA</item>
+        <item>KONKA</item>
+        <item>CAFE 1632</item>
+    </string-array>
+
+
+    <string-array name="eventdesc">
+        <item>Come and experience Spring Day with us</item>
+        <item>Catch kalvin momo live</item>
+        <item>#CinematicAndGirls</item>
+        <item>Sunset Sessions catch Myztro</item>
+    </string-array>
+
+    <string-array name="upcomingname">
+
+        <item>SIN 1632</item>
+        <item>KONKA</item>
+        <item>CAFE 1632</item>
+        <item>SHORT LEFT</item>
+        <item>THE WEEKEND</item>
+        <item>PHELI SHISANYAMA</item>
+        <item>PROPAGANDA</item>
+        <item>EUROPA</item>
+        <item>AYOBA SHISANYAMA</item>
+        <item>GARANKUWA SHISANYAMA</item>
+        <item>MAKOYA SHANDIS</item>
+        <item>BUSY CORNER</item>
+        <item>SLOTJHILE PUB &amp; SHISANYAMA</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
