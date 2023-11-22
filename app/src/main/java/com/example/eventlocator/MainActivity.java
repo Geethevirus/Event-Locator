@@ -15,6 +15,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView staticRecyclerView;
     private StaticRevAdapter staticRevAdapter;
     private EventCategoryModel eventCategoryModel;
+    private ImageView cancel_btn;
     private ActivityMainBinding binding;
 
 
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
+
 
         binding.navigationBar.setOnItemSelectedListener(item -> {
 
@@ -59,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
             }
+
+
 
             return true;
         });
@@ -85,7 +90,10 @@ public class MainActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.bottom_sheet);
 
 
+
+
         LinearLayout uploadPic = dialog.findViewById(R.id.upload_pictLay);
+        ImageView cncel_btn = dialog.findViewById(R.id.cancel_btn);
 
         uploadPic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +102,14 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(getApplicationContext(),"Function Not available",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+
+        cncel_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                dialog.dismiss();
             }
         });
 

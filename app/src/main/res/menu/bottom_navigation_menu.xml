@@ -14,7 +14,7 @@
         android:title="Search" />
 
     <item
-        android:title="Post"
+            android:title="Create"
         android:id="@+id/add_posts"
         android:icon="@drawable/baseline_add"
         />
